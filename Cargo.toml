@@ -3,7 +3,9 @@ name = "zkmips-zkvm"
 version = "0.1.0"
 edition = "2021"
 authors = ["Idrees"]
-description = "Experimental Zero-Knowledge Virtual Machine Implementation"
+description = "Advanced Zero-Knowledge Virtual Machine Implementation"
+license = "MIT"
+repository = "https://github.com/idrees2516/zkmips-zkvm-impl-in-rust-.git"
 
 [dependencies]
 tokio = { version = "1.0", features = ["full"] }
@@ -20,3 +22,13 @@ k256 = { version = "0.13", features = ["ecdsa"] }
 patricia-trie = "0.4"
 zksync-crypto = "1.0"
 zksync-types = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+parking_lot = "0.12"
+rand = "0.8"
+sha3 = "0.10"
+num-bigint = "0.4"
+num-traits = "0.2"
+bellman = "0.13"
+ff = "0.12"
+pairing = "0.22"

@@ -1,1 +1,37 @@
-/target
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+/build/
+/dist/
+
+# Secrets
+.env
+*.pem
+*.key
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+
+# Documentation
+/doc/
+/docs/_build/
